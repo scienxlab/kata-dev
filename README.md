@@ -1,6 +1,6 @@
 # kata-dev
 
-This small repo provides information for developers of [kata](https://kata.geosci.ai/) challenges.
+**This small repo provides information for developers of [kata](https://kata.geosci.ai/) challenges.**
 
 The `kata` server itself is private, because it essentially contains the solutions to the challenges. But the [`demo`](demo) folder contains everything you need to provide for a challenge. And this demo is challenge is itself live at [kata.geosci.ai](http://kata.geosci.ai/challenge/demo) — check it out. Have a go at solving it, and you'll soon get the hang of what the challenges are like (although most of them are a bit harder than the demo!).
 
