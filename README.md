@@ -10,7 +10,7 @@ The `kata` server itself is private, because it essentially contains the solutio
 - Users are anonymous and the server does not track or log any information at all.
 - There is no UI, and the server only responds to GET requests. Forming and submitting requests is part of the learning for new Pythonistas.
 - Users can respond as many times as they like, but wrong answers are throttled (one minute for the first, then 2 minutes, then 3, etc). The time penalty pertains to a *key*, not a *user*, and resets each day.
-- 
+- Users can get hints by giving the server a key and question number, but no answer.
 
 ## Guidelines for making challenges
 
