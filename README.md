@@ -1,4 +1,4 @@
-# kata-dev
+# 形 kata-dev
 
 **This small repo provides information for developers of [kata](https://kata.geosci.ai/) challenges.**
 
