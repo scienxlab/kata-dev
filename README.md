@@ -22,5 +22,6 @@ The `kata` server itself is private, because it essentially contains the solutio
 - The first question should be very easy and really only check that the person has parsed the data correctly.
 - The last question should be somewhat related to a real-world problem or challenge.
 - Questions between the first and last should ideally build in some way towards the last.
+- In general, the puzzles can be solved in any language, so we try to avoid Python-specific language or tools. But most people do them in Python so sometimes it seems humane to do it anyway.
 
 Check out the two files in [the `demo` folder](demo) and see if you can cook something up. The best way to share your challenge with us is probably [by email at hello@agilescientific.com](mailto:hello@agilescientific.com) or via DM in [the Software Underground slack](https://swung.slack.com) (sign up at [softwareunderground.org](https://softwareunderground.org/slack). Remember not to share it publicly; it needs to stay secret.
