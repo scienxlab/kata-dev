@@ -1,6 +1,6 @@
 # 形 kata-dev
 
-**This small repo provides information for developers of [kata](https://kata.geosci.ai/) challenges.**
+**This small repo provides information for developers of [kata](http://kata.geosci.ai/) challenges.**
 
 The `kata` server itself is private, because it essentially contains the solutions to the challenges. But the [`demo`](demo) folder contains everything you need to provide for a challenge. This demo challenge is itself live at [kata.geosci.ai](http://kata.geosci.ai/challenge/demo) — check it out. Have a go at solving it, and you'll soon get the hang of what the challenges are like (although most of them are a bit harder than the demo!).
 
@@ -24,4 +24,4 @@ The `kata` server itself is private, because it essentially contains the solutio
 - Questions between the first and last should ideally build in some way towards the last.
 - In general, the puzzles can be solved in any language, so we try to avoid Python-specific language or tools. But most people do them in Python so sometimes it seems humane to do it anyway.
 
-Check out the two files in [the `demo` folder](demo) and see if you can cook something up. The best way to share your challenge with us is probably [by email at hello@agilescientific.com](mailto:hello@agilescientific.com) or via DM in [the Software Underground slack](https://swung.slack.com) (sign up at [softwareunderground.org](https://softwareunderground.org/slack). Remember not to share it publicly; it needs to stay secret.
+Check out the two files in [the `demo` folder](demo) and see if you can cook something up. The best way to share your challenge with us is probably [by email at hello@scienxlab.org](mailto:hello@scienxlab.org) or via DM in [the Software Underground slack](https://swung.slack.com) (sign up at [softwareunderground.org](https://softwareunderground.org/slack). Remember not to share it publicly; it needs to stay secret.
