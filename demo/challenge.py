@@ -1,9 +1,17 @@
 from collections import Counter
 import numpy as np
 
+# Currently, the following libraries are installed on the server:
+#    numpy
+#    striplog
+#    scipy
+#    pandas
+#  If you need others, please let me know. 
+
 
 #====================================
 # NOTE
+#
 # The set-up and questions go in description.md. This file, challenge.py,
 # provides the code for three things needed for a challenge:
 # 
@@ -14,6 +22,7 @@ import numpy as np
 
 #====================================
 # YOUR FUNCTIONS
+#
 # Any functions you need to build the dataset and check the answers go here.
 # You may or may not need to have functions here.
 
@@ -58,10 +67,15 @@ def force_one_max(arr: np.ndarray) -> np.ndarray:
 
 #====================================
 # YOU MUST PROVIDE THE `make_data` FUNCTION
+#
+# This function generates the input data. Make sure it's too much data to
+# allow a manual solution, but check that everything runs in a reasonable
+# amount of time (ideally less than 200 ms per function).
 
 def make_data(seed: int) -> str:
     """
-    This function generates you problem data.
+    This function generates you problem data. It must take a single arg
+    called `seed`, which will be an integer.
 
     This creates your dataset. More entropy is always good. Aim for data
     which provides large ranges of possible answers. E.g. if you ask about
@@ -78,20 +92,25 @@ def make_data(seed: int) -> str:
     # Do any processing or checks. For example, I am going to ask for the
     # position of the max, so I need to check there's only one element with
     # the maximum value. And I'm going to going to ask for the mode, so we'll
-    # keep it interesting by ensuring there is more than one mode.
+    # keep it interesting by ensuring there is more than one mode and I'll
+    # ask for the largest of them.
     ints = force_three_modes(ints)
     ints = force_one_max(ints)
     rng.shuffle(ints)
 
     # You must send back a string. If one of your challenges is about data
-    # processing, you might make it tricky to parse. Or send JSON. Or a CSV.
+    # processing, you might make it tricky to parse to challenge the user.
+    # Or you could send JSON, or a CSV. Any text is fine.
     return ', '.join(map(str, ints))
 
 
 #====================================
 # YOU MUST PROVIDE SOLUTION FUNCTIONS
+#
+# These functions accept the input data (all of it) and return solutions.
 # The solutions you send back must compare equal (==) to the correct answer.
 # This is why we prefer answers that are integers or strings.
+
 def solve_1(data):
     """
     Returns the solution to question 1.
@@ -120,6 +139,7 @@ def solve_3(data):
 
 #====================================
 # YOU MUST PROVIDE A HINT DICTIONARY
+#
 # Write some short hints. Remember, we only send back plain text.
 # This is just a dictionary mapping question number to a string.
 hints = {
